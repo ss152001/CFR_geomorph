@@ -114,11 +114,6 @@ def plot_finer():
     plt.ylabel('% Finer')
     plt.show()   
     
-'''peak and mean discharge plot'''
-#Q_data(12340500,2018,2019) #uncomment this function to run the code
-'''percent finer plot'''
-#plot_finer() #uncomment this function to run the code
-'''flood freq curve'''
 
 def plot_flood_curve():
     from matplotlib.ticker import MultipleLocator
@@ -152,3 +147,10 @@ def plot_flood_curve():
     plt.ylabel('Peak flow ($m^{3} s^{-1}$)')
     plt.title('Flood Frequency Curve at ClarK Fork above Missoula, MT')
     plt.show()
+    
+'''peak and mean discharge plot'''
+#Q_data(12340500,2018,2019) #uncomment this function to run the code
+'''percent finer plot'''
+#plot_finer() #uncomment this function to run the code
+'''flood freq curve'''
+#plot_flood_curve() #uncomment this function to run the code
