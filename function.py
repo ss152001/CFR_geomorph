@@ -10,14 +10,14 @@ def Q_data(site_number,year1,year2):
     import os
     import matplotlib.pyplot as plt
     #setup path
-    dirname = "cfr"
+    dirname = "CFR_plot"
     datapath = os.getcwd()
     path = os.path.join(datapath, dirname)
     if os.path.exists(path):
         pass
     else:
         os.mkdir(path)
-    filename = '\stations.csv'
+    filename = '/stations.csv'
     d = pd.read_csv(path+filename)
 
     for i in range(len(d)):
@@ -87,14 +87,14 @@ def plot_finer():
     import os
     import matplotlib.pyplot as plt
     #setup path
-    dirname = "cfr"
+    dirname = "CFR_plot"
     datapath = os.getcwd()
     path = os.path.join(datapath, dirname)
     if os.path.exists(path):
         pass
     else:
         os.mkdir(path)
-    filename = '\finer.csv'
+    filename = '/finer.csv'
     
     import pandas as pd
     d = pd.read_csv(path+filename)
@@ -120,14 +120,14 @@ def plot_flood_curve():
     import os
     import matplotlib.pyplot as plt
     #setup path
-    dirname = "cfr"
+    dirname = "CFR_plot"
     datapath = os.getcwd()
     path = os.path.join(datapath, dirname)
     if os.path.exists(path):
         pass
     else:
         os.mkdir(path)
-    filename = '\floodcurve.csv'
+    filename = '/floodcurve.csv'
 
     import pandas as pd
     d = pd.read_csv(path+filename)
