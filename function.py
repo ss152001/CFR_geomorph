@@ -10,7 +10,7 @@ def Q_data(site_number,year1,year2):
     import os
     import matplotlib.pyplot as plt
     #setup path
-    dirname = "CFR_plot"
+    dirname = "CFR_geomorph"
     datapath = os.getcwd()
     path = os.path.join(datapath, dirname)
     if os.path.exists(path):
@@ -87,7 +87,7 @@ def plot_finer():
     import os
     import matplotlib.pyplot as plt
     #setup path
-    dirname = "CFR_plot"
+    dirname = "CFR_geomorph"
     datapath = os.getcwd()
     path = os.path.join(datapath, dirname)
     if os.path.exists(path):
@@ -120,7 +120,7 @@ def plot_flood_curve():
     import os
     import matplotlib.pyplot as plt
     #setup path
-    dirname = "CFR_plot"
+    dirname = "CFR_geomorph"
     datapath = os.getcwd()
     path = os.path.join(datapath, dirname)
     if os.path.exists(path):
